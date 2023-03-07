@@ -12,7 +12,9 @@ This project, in its alpha state, is a thin wrapper around the tools `hotsos` an
 
 This project is intended for the replication of Ubuntu installations. As such, at this time, when `pasta-sos` is ran it will create a virtual machine installed with Ubuntu whose version matches the information in the sosreport.
 
-Feedback on usage is appreciated, and recommendations on features and improvements are encouraged. At the moment there is no packaging assocaited with this project, and so the installation instructions seek to mimic a development environment.
+Feedback on usage is appreciated, and recommendations on features and improvements are encouraged; see the discussion forum: https://github.com/pjmattingly/pasta-sos/discussions/categories/ideas.
+
+At the moment there is no packaging assocaited with this project, and so the installation instructions seek to mimic a development environment.
 
 This tool is in an alpha state and will likely break. Please use the [Issues](https://github.com/pjmattingly/pasta-sos/issues) tab for reporting.
 
