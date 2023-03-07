@@ -26,7 +26,7 @@ This tool is in an alpha state and will likely break. Please use the [Issues](ht
 4) Install `pipenv`; see: https://packaging.python.org/en/latest/tutorials/managing-dependencies/#installing-pipenv
 6) Clone the repository `git clone https://github.com/pjmattingly/pasta-sos`; see: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
 5) Install dependencies `pipenv install`; see: https://pipenv-fork.readthedocs.io/en/latest/basics.html
-6) Run `pasta-sos <path/to/sosreport folder>`
+6) Run `pipenv run python main.py <path/to/sosreport folder>`
 
 ## Cleanup
 
