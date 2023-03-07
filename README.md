@@ -22,4 +22,4 @@ This project, in its alpha state, is a thin wrapper around the tools `hotsos` an
 
 ## Cleanup
 
-`pasta-sos` will create virtual machines with multipass. At this time there is no functionality for removing these virtual machines automatically. `pasta-sos` will report the names of the virtual machines it creates with output to STDOUT; Similar to: `Launched: <name of VM>`. Use the command `multipass delete <name of VM>` to remove the virtual machines it creates; You may also have to use `multipass purge` to remove deleted virtual machines from your system.
+`pasta-sos` will create virtual machines with `multipass`. At this time there is no functionality for removing these virtual machines automatically. `pasta-sos` will report the names of the virtual machines it creates with output to STDOUT; Similar to: `Launched: <name of VM>`. Use the command `multipass delete <name of VM>` to remove the virtual machines it creates; You may also need to use `multipass purge` to remove deleted virtual machines from your system.
